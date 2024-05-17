@@ -1,0 +1,44 @@
+body {
+    font-family: fantasy;
+    background-color: #01ecfd8d;
+    margin: 0;
+    padding: 0;
+    height: 40em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container {
+    width: 400px;
+    text-align: center;
+    padding: 20px;
+    box-shadow: 5px 5px 50px rgb(17, 17, 225);
+    border-radius: 10px;
+    background-color: hsla(243, 94%, 49%, 0.632);
+}
+h1 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+input {
+    width: 100px;
+    padding: 8px;
+    margin-bottom: 10px;
+}
+button {
+    padding: 10px 20px;
+    background-color: #0011ff;
+    color: #909529;
+    border: none;
+    border-radius: 100px;
+    cursor: pointer;
+}
+button:hover {
+    transform: 0.5s;
+    background-color: #000000;
+    color: #0011ff;
+}
+p {
+    font-size: 18px;
+    margin-top: 20px;
+}
